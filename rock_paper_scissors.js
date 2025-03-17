@@ -36,18 +36,10 @@ const score = function(){
         if(result == "YOU WIN!"){
             playerScore ++;
         }
-        else if(result = "YOU LOSE!"){
+        else if(result == "YOU LOSE!"){
             computerScore ++;
         }
-        else if(result == "IT IS A TIE!"){
-            if(playerScore === 4 && computerScore === 4){
-                return;
-            }
-            else{
-                playerScore++;
-                computerScore++;
-            }
-        }
+  
 
     playerDisplay.textContent = `PLAYER SCORE: ${playerScore}`;
     computerDisplay.textContent = `COMPUTER SCORE: ${computerScore}`;

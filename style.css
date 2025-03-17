@@ -16,14 +16,14 @@ body{
 #myH1{
     font-size: 3rem;
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     flex-shrink: 1;
 
 }
 
 #choices{
     display:flex;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     gap: 30px;
 }
 
@@ -58,7 +58,7 @@ body{
 
 #choice-result, #score, #final-result, #second-result{
     font-size: 2rem;
-    padding: 30px;
+    padding: 15px;
 }
 
 #restart{
