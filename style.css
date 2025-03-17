@@ -1,0 +1,87 @@
+body{
+    font-weight: bold;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+    background-color: #1A1A1A;
+    color:#c7a925;
+    flex: 1;
+    text-shadow: 0px 0px 10px rgba(199, 169, 37, 0.6);
+}
+
+#myH1{
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 30px;
+    flex-shrink: 1;
+
+}
+
+#choices{
+    display:flex;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+
+#choices button{
+    font-size: 5rem;
+    background-color:#558957;
+    color:hsl(49, 100%, 50%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(85, 137, 87, 0.6);
+    transition: background-color 0.3s ease-in-out,transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#choices button span{
+    font-size: 7rem;
+}
+
+#choices button:hover{
+    background-color: hsla(122, 23%, 44%, 0.74);
+    transform: scale(1.1);
+}
+
+#choices button:active {
+    transform: scale(0.95); /* Slight press effect */
+    box-shadow: none;
+}
+
+#choice-result, #score, #final-result, #second-result{
+    font-size: 2rem;
+    padding: 30px;
+}
+
+#restart{
+    background-color: #558957;
+    color: #ffd000;
+    font-weight: bold;
+    font-size: 2rem;
+    border: none;
+    border-radius: 20px;
+    padding:10px 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(85, 137, 87, 0.6);
+    transition: background-color 0.3s ease-in-out;
+
+}
+
+#restart:hover{
+    background-color: hsla(122, 23%, 44%, 0.774);
+    transform: scale(1.5);
+}
+
+
+
+
+
+
